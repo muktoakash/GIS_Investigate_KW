@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <DATABASE>
+    <FIELDS>
+      <FIELD TYPE="LONGINT">LANDMARKID</FIELD>
+      <FIELD TYPE="STRING">LANDMARK</FIELD>
+      <FIELD TYPE="STRING">CATEGORY</FIELD>
+      <FIELD TYPE="LONGINT">CIVIC_NO</FIELD>
+      <FIELD TYPE="STRING">STREET</FIELD>
+      <FIELD TYPE="STRING">OWNERSHIP</FIELD>
+      <FIELD TYPE="DATE">CREATE_DAT</FIELD>
+      <FIELD TYPE="DATE">UPDATE_DAT</FIELD>
+      <FIELD TYPE="STRING">SOURCE</FIELD>
+      <FIELD TYPE="DATE">SOURCE_DAT</FIELD>
+      <FIELD TYPE="STRING">SUBCATEGOR</FIELD>
+      <FIELD TYPE="STRING">STATUS</FIELD>
+      <FIELD TYPE="DATE">STATUS_DAT</FIELD>
+      <FIELD TYPE="STRING">MUNICIPAL_</FIELD>
+      <FIELD TYPE="STRING">COMMON_LOC</FIELD>
+      <FIELD TYPE="STRING">LOCATION_D</FIELD>
+      <FIELD TYPE="STRING">ON_CALL</FIELD>
+      <FIELD TYPE="STRING">DIVISION_R</FIELD>
+      <FIELD TYPE="DOUBLE">ASSOCIATED</FIELD>
+      <FIELD TYPE="STRING">CONSTRUCTI</FIELD>
+      <FIELD TYPE="STRING">MAP_LABEL</FIELD>
+    </FIELDS>
+  </DATABASE>
+  <SOURCE></SOURCE>
+  <HISTORY saga-version="9.5.1">
+    <TOOL library="shapes_points" id="16" name="Thiessen Polygons">
+      <OPTION type="double" id="FRAME" name="Frame Size">10</OPTION>
+      <INPUT type="shapes" id="POINTS" name="Points">
+        <FILE>S:\GitHub\GIS_Investigate_KW\1_Emergency_Services_by_Age\Medical_Services_Only.shp</FILE>
+      </INPUT>
+      <OUTPUT type="shapes" id="POLYGONS" name="Polygons">Medical_Services_Only [Thiessen Polygons]</OUTPUT>
+    </TOOL>
+  </HISTORY>
+  <FILE></FILE>
+  <DESCRIPTION></DESCRIPTION>
+  <PROJECTION>
+    <WKT1>PROJCS["WGS 84 / Pseudo-Mercator",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs"]]</WKT1>
+    <PROJ>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs +type=crs</PROJ>
+    <CODE>-1</CODE>
+  </PROJECTION>
+</SAGA_METADATA>
