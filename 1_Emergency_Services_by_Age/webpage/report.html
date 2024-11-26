@@ -48,7 +48,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
-                    <figure class="figure">
+                    <figure class="figure mt-5 pt-3">
                         <img src="./assets/Map.jpg" alt="Map of Emergency Medical Services" class="img-fluid">
                         <figcaption class="figure-caption">A heatmap of Emergency Medical support available in the KW region.</figcaption>
                       </figure>
@@ -74,17 +74,34 @@
             <div class="row my-5">
                 <div class="col">
                     <h2 class="h2">Geopspatial skills and tools used.</h2>
-1. Identify the list of geospatial skills you applied with either QGIS or SNAP software (or Both of them).
-•	Consider symbology/colour ramp, interpolation, classification, and statistical values & indices. 
-•	Choose GIS technology and skills you learned from this course, including plugin, toolbox and relevant modules.
+                    <p>The base layer consists of an open street map.
+                        Emergency medical services such as hospitals, Urgent Care centers, Walk-in clinics and Emergency Ambulance services
+                        have been isolated and are displayed as points on the map, with topo hospital symbology.
+                        The Voronoi polygons are created using the QGIS processing tools and are displayed
+                        as transparent polygons with red borders.
+                    </p>
+                    <p>A layer showing the Planning Communities of the Kitchener-Waterloo Region is superimposed
+                        with a semi-transparent layer to show the demarkation of the localities. This helps in identifying
+                        the distribution of the Emergency Medical Services in the region.
+                    </p>
+                    <p>Finally, a heatmap is generated based on the estimated number of emergency room physicians
+                        in attendance at each facility. The heatmap is displayed with a colour ramp from green to red,
+                        with green indicating a higher number of physicians and red indicating a lower number of physicians.
+                        This layer is also used to label the facilities.
+                    </p>
+                    <p> The QGIS tools used include "voronoi polygons" from vector geometry, and "clip vector by mask layer". A 
+                        <a href="./../webmap/qgis2web_2024_11_21-07_39_18_371738/index.html"> webmap </a> 
+                        was created using the QGIS2WEB plugin for interactive interface.
 
                     <h2 class="h2">Data used for the project and how they were transformed.</h2>
-1. Provide the list of Raster & Vector data you used in your project.
-•	Identify band coverage and characteristics of Raster data.
-•	Assess attribute tables for specific features in Vector data.
-2. Determine advantages and disadvantages of each Raster and Vector data from real-world example in your topic with several sentences.
+                    <p> All data, other than the open street map, was obtained from 
+                        <a href="https://open-kitchenergis.opendata.arcgis.com/pages/open-data-listing">Kitchener GeoHub</a>
+                        and modified to suit the requirements of the project. 
+                        The data was transformed using QGIS processing tools and the attribute tables.
+                    </p>
 
                     <h2 class="h2">Analysis and results of the project.</h2>
+                    <p>The voronoi polynomials can be used to determine</p>
 
                     <h2 class="h2">Challenges faced with the project.</h2>
                 </div>
