@@ -16,3 +16,9 @@ _site/
 # counterproductive to check this file into the repository.
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
+
+# Ignore all large files and directories
+/Data/Bangladesh/ofr97470H.zip
+/Data/Bangladesh/ofr97470H/!BANGLA
+/Data/Bangladesh/ofr97470H/BANGLA/IMAGES
+/Data/Bangladesh/ofr97470H/BANGLA/IMAGES/*
