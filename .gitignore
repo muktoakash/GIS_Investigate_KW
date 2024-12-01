@@ -19,6 +19,15 @@ Gemfile.lock
 
 # Ignore all large files and directories
 /Data/Bangladesh/ofr97470H.zip
-/Data/Bangladesh/ofr97470H/!BANGLA
+/Data/Bangladesh/ofr97470H/ACREAD50/
+/Data/Bangladesh/ofr97470H/ACREAD50/*
+/Data/Bangladesh/ofr97470H/ARCEXP20/
+/Data/Bangladesh/ofr97470H/ARCEXP20/*
+/Data/Bangladesh/ofr97470H/AUTORUN.INF
+/Data/Bangladesh/ofr97470H/BANGLA.APR
+/Data/Bangladesh/ofr97470H/BANG_COP.EXE
+/Data/Bangladesh/ofr97470H/BANGL_GEP.AEP
+/Data/Bangladesh/ofr97470H/*.EXE
+/Data/Bangladesh/ofr97470H/*.INF
 /Data/Bangladesh/ofr97470H/BANGLA/IMAGES
 /Data/Bangladesh/ofr97470H/BANGLA/IMAGES/*
