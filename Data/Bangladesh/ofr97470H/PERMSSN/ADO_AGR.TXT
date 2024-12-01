@@ -1,0 +1,15 @@
+ADOBE SYSTEMS INCORPORATED 
+END USER LICENSE AGREEMENT SUPPLEMENT TO PERMIT DISTRIBUTION 
+FOR ACROBAT READER AND SVG VIEWER SOFTWARE (the "Software") 
+NOTICE TO USER:
+THIS IS A CONTRACT. PLEASE READ IT CAREFULLY. THIS END USER LICENSE AGREEMENT SUPPLEMENT TO PERMIT DISTRIBUTION (THE "SUPPLEMENT") AMENDS THE TERMS OF THE END USER LICENSE AGREEMENT DISPLAYED UPON INSTALLATION AND/OR FIRST USE OF THE SOFTWARE (THE "AGREEMENT"). BY INDICATING YOUR ACCEPTANCE BELOW, YOU ACCEPT ALL THE TERMS AND CONDITIONS OF THE AGREEMENT AND THIS SUPPLEMENT. IF YOU DO NOT AGREE WITH THE TERMS AND CONDITIONS OF THE AGREEMENT AND THIS SUPPLEMENT, DECLINE WHERE INSTRUCTED, AND YOU WILL NOT BE ABLE TO DISTRIBUTE THE SOFTWARE. 
+SUPPLEMENT TERMS AND CONDITIONS: 
+DISTRIBUTION. The Agreement is hereby amended to include the following as Section 2.8. 
+2.8 You may reproduce and distribute unlimited copies of the Software (a) as bundled with other software through electronic means (including, without limitation, electronic software download), (b) as bundled with other software, Portable Document Format (PDF) content or Scalable Vector Graphic format (SVG) content solely on tangible media, and (c) on a standalone basis solely on tangible media. For the purpose of directing end users to obtain the Software through electronic means on a standalone basis, you must link to the official Adobe web site. Any web site containing a link to an Adobe web site must not contain (i) any Adobe logos, product signatures, or trademarks in stylized form unless under separate prior written license or (ii) any materials that are illegal, pornographic, defamatory, infringing, threatening, invasive of another's privacy, or racially, ethnically or otherwise objectionable. You agree to distribute the Software without modification, including, without limitation, removal of the installer program, Electronic End User License Agreement or any copyright or other proprietary notice that appears in the Software. 
+ALL OTHER TERMS AND CONDITIONS OF THE AGREEMENT REMAIN UNCHANGED AND HAVE FULL FORCE AND EFFECT. 
+SVGReader_Supplement_IntlEnglish_02.05.01_13:43 
+
+
+
+Copyright (c)2001 Adobe Systems Incorporated. All rights reserved
+
