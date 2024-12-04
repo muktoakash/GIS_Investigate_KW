@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <DATABASE></DATABASE>
+  <SOURCE></SOURCE>
+  <HISTORY saga-version="9.5.1">
+    <TOOL library="shapes_grid" id="7" name="Clip Grid with Polygon">
+      <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid System">
+        <CELLSIZE>0.00833333333333</CELLSIZE>
+        <XMIN>60.00416666666667</XMIN>
+        <YMIN>-9.99583333331335</YMIN>
+        <XMAX>99.99583333331734</XMAX>
+        <YMAX>39.995833333333323</YMAX>
+      </OPTION>
+      <OPTION type="choice" id="EXTENT" name="Target Extent" index="1">polygons</OPTION>
+      <INPUT_LIST type="grid_list" id="INPUT" name="Input" system="PARAMETERS_GRID_SYSTEM">
+        <INPUT type="grid_list" id="INPUT" name="Input" system="PARAMETERS_GRID_SYSTEM">
+          <FILE>C:/Users/mukto/AppData/Local/Temp/processing_EdAhZn/4317c5a0eb064823b7f8d08f9777fd3c/gt30e060n40dem.sgrd</FILE>
+        </INPUT>
+      </INPUT_LIST>
+      <INPUT type="shapes" id="POLYGONS" name="Polygons">
+        <FILE>S:/GitHub/GIS_Investigate_KW/Data/Bangladesh/ofr97470H/BANGLA/B_GEOG.SHP</FILE>
+      </INPUT>
+      <OUTPUT type="grid_list" id="OUTPUT" name="Output">gt30e060n40dem</OUTPUT>
+    </TOOL>
+  </HISTORY>
+  <FILE></FILE>
+  <DESCRIPTION></DESCRIPTION>
+  <PROJECTION>
+    <WKT1>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</WKT1>
+    <PROJ>+proj=longlat +datum=WGS84 +no_defs +type=crs</PROJ>
+    <CODE authority="EPSG">4326</CODE>
+  </PROJECTION>
+</SAGA_METADATA>
