@@ -1,0 +1,274 @@
+{
+  "KEYFRAMES": {
+    "camera": {
+      "groups": []
+    },
+    "layers": {
+      "Building_Outlines_shp_9393be70_80b5_4073_ae12_183d2d1919e1": {
+        "enabled": true,
+        "groups": []
+      },
+      "Cycling_Infrastructure_shp_bdefa540_bd16_4451_ab39_253d04043eec": {
+        "enabled": true,
+        "groups": []
+      },
+      "Digital_Terrain_Model_2019_Kitchener_6f3afad0_382b_4b4d_a3e7_42c6ca825660": {
+        "enabled": true,
+        "groups": []
+      },
+      "Hillshade_Surface_Model_2019_Kitchener_5a176d23_4655_4337_ae1d_fcc8d33a87f5": {
+        "enabled": true,
+        "groups": []
+      },
+      "Land_Cover_2019_Kitchener_7bdb7a13_a6a0_4b2b_84cb_57c11e621c65": {
+        "enabled": true,
+        "groups": []
+      },
+      "Planning_Communities_shp_1d927524_1156_4c23_95da_767e983f5958": {
+        "enabled": true,
+        "groups": []
+      },
+      "fp:b323ba9d": {
+        "enabled": true,
+        "groups": []
+      }
+    },
+    "repeat": false
+  },
+  "LAYERS": [
+    {
+      "geomType": 3,
+      "layerId": "Building_Outlines_shp_9393be70_80b5_4073_ae12_183d2d1919e1",
+      "name": "Building_Outlines",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Label": false,
+        "checkBox_Outline": true,
+        "checkBox_Underline": false,
+        "checkBox_Visible": true,
+        "colorButton_BgColor": [
+          255,
+          255,
+          255,
+          176
+        ],
+        "colorButton_ConnColor": [
+          192,
+          192,
+          208,
+          255
+        ],
+        "colorButton_Label": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_OtlColor": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "comboBox_FontFamily": "sans-serif",
+        "comboBox_ObjectType": "Polygon",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "expression_Label": "\"BUILDINGID\"",
+        "fieldExpressionWidget_altitude": "0",
+        "geomWidget0": {},
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "groupBox_Background": true,
+        "groupBox_Conn": true,
+        "labelHeightWidget": {
+          "comboData": 1,
+          "comboText": "Relative",
+          "editText": "50",
+          "type": 6
+        },
+        "lineEdit_Name": "",
+        "mtlWidget0": {},
+        "mtlWidget1": {},
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "slider_FontSize": 3
+      },
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "Cycling_Infrastructure_shp_bdefa540_bd16_4451_ab39_253d04043eec",
+      "name": "Cycling_Infrastructure",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_ObjectType": "Line",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "fieldExpressionWidget_altitude": "0",
+        "geomWidget0": {},
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "lineEdit_Name": "",
+        "mtlWidget0": {
+          "checkBox": false,
+          "type": 9
+        },
+        "mtlWidget1": {},
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "Hillshade_Surface_Model_2019_Kitchener_5a176d23_4655_4337_ae1d_fcc8d33a87f5",
+      "name": "Hillshade_Surface_Model_2019_Kitchener",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Building_Outlines_shp_9393be70_80b5_4073_ae12_183d2d1919e1",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "afae5c73",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "afae5c73",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 3,
+      "layerId": "Planning_Communities_shp_1d927524_1156_4c23_95da_767e983f5958",
+      "name": "Planning_Communities",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "Land_Cover_2019_Kitchener_7bdb7a13_a6a0_4b2b_84cb_57c11e621c65",
+      "name": "Land_Cover_2019_Kitchener",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "Digital_Terrain_Model_2019_Kitchener_6f3afad0_382b_4b4d_a3e7_42c6ca825660",
+      "name": "Digital_Terrain_Model_2019_Kitchener",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "fp:b323ba9d",
+      "name": "Flat Plane",
+      "properties": {},
+      "visible": false
+    }
+  ],
+  "SCENE": {
+    "checkBox_FixAspectRatio": true,
+    "checkBox_Outline": false,
+    "colorButton_Color": [
+      0,
+      0,
+      0,
+      255
+    ],
+    "colorButton_Fog": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "comboBox_MaterialType": 0,
+    "comboBox_xyShift": true,
+    "groupBox_Fog": false,
+    "lineEdit_CenterX": "544259.5463443503",
+    "lineEdit_CenterY": "4806226.074473335",
+    "lineEdit_Height": "20063.55191632267",
+    "lineEdit_Rotation": "0",
+    "lineEdit_Width": "20063.55191632267",
+    "lineEdit_zFactor": "5",
+    "slider_Fog": 41
+  },
+  "Version": 20800
+}
