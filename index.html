@@ -158,7 +158,9 @@
                     <p>
                         Sentinel-2 data of the KW region from March 1st, 2024, was used to create the k-means clustering. This specific date was chosen there was very low cloud coverage that day,
                          and although there was some snow on the ground, it wasn’t covering the entire landscape. A total of 5 clusters were computed over 7 iterations using the seed 415.
-                         The data was then exported to QGIS and overlapped with OSM as the base layer (see corresponding pdf and QGIS project).  
+                         The data was then exported to QGIS and overlapped with OSM as the base layer (see corresponding pdf and QGIS project).
+                    </p>
+                    <p>  
                          It seems clear that the training was clearly able to classify major highways (orange) and snow (purple), and some vegetation (green),
                          but it could not distinguish water (also green) and was not able to separate the local roadways from the houses (both yellow).
                          Perhaps increasing the number of classes or iterations could have improved the classification.
