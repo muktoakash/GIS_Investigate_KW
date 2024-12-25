@@ -163,10 +163,21 @@
                 <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">Fastest route between Campuses</h5>
                     </div>
                     <div class="modal-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum commodi repellendus magni, sit nulla iure porro distinctio. Porro aut delectus harum. Alias facilis cupiditate officiis sapiente necessitatibus, nisi quod debitis.
+                        <p>
+                            This map shows Conestoga College campuses and Grand River Transit routs. 
+                            GRT Routes used categorized line symbology with the Viridis color ramp to identify each route. 
+                            The fastest route was computed using Open Route Source plugin, and is a red line at 40% opacity. 
+                            Various landmarks have been symbolized as points by category, with random colors as the ramp. 
+                            Finally, the layers for the campuses use solid fill for the symbology.
+                        </p>
+                        <p> Using the fastest bus route computed by ORS, the GRT routes that intersect the fastest routes was collected
+                            using “Line Intersections” from Analysis Tools.
+                            Then  the “List Unique Values” item was used to find all the unique GRT routes that intersect the fastest route.
+                            The result was the following Route numbers: 10, 16, 36, 57, 61, 67, 76, 110, 201, 203, 206, 302. 
+                        </p>
                     </div>
                     <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
