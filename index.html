@@ -143,12 +143,17 @@
                 <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">NDVI k-means classification</h5>
                     </div>
                     <div class="modal-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum commodi repellendus magni, sit nulla iure porro distinctio. Porro aut delectus harum. Alias facilis cupiditate officiis sapiente necessitatibus, nisi quod debitis.
-                    </div>
-                    <div class="modal-footer">
+                    <p>
+                        Sentinel-2 data of the KW region from March 1st, 2024, was used to create the k-means clustering. This specific date was chosen there was very low cloud coverage that day,
+                         and although there was some snow on the ground, it wasn’t covering the entire landscape. A total of 5 clusters were computed over 7 iterations using the seed 415.
+                         The data was then exported to QGIS and overlapped with OSM as the base layer (see corresponding pdf and QGIS project).  
+                         It seems clear that the training was clearly able to classify major highways (orange) and snow (purple), and some vegetation (green),
+                         but it could not distinguish water (also green) and was not able to separate the local roadways from the houses (both yellow).
+                         Perhaps increasing the number of classes or iterations could have improved the classification.
+                    </p>
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
