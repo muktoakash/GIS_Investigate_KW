@@ -49,94 +49,132 @@
 
         <div class="row justify-content-center">
             <div class="col">
-                <div class="list-group-item py-3">
-                    <h2 class="h2">What is GIS?</h2>
-                    <p>Geographic Information System (GIS) is a system designed to 
-                        capture, store, manipulate, analyze, manage, and present 
-                        spatial or geographic data. 
-                        GIS applications are tools that allow users to create 
-                        interactive queries (user-created searches), analyze spatial information, 
-                        edit data in maps, and present the results of all these operations.</p>
-                </div>
-                <div class="list-group-item py-3" id="IntroGIS">
-                    <!-- accordion -->
-                    <div class="accordion" id="IntroConcepts">
-                        <div class="accordion-item" id="GeoData">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Introduction to GIS
-                                </button>
-                            </h2>
-                            <div id="introOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>Geospatial Data</strong>
-                                    <ul>
-                                        <li>Geometric feature: Points, lines, polygons, surface & elevation</li>
-                                        <li>Data types - Nominal, ratio, ordinal, scalar</li>
-                                        <li>Data format types - Raster vs Vector</li>
-                                        <li>Features of maps - Type, scale, projection, coordinate systems</li>
-                                    </ul>
+                <div class="list-group">
+                    <div class="list-group-item py-3">
+                        <h2 class="h2">What is GIS?</h2>
+                        <p>Geographic Information System (GIS) is a system designed to 
+                            capture, store, manipulate, analyze, manage, and present 
+                            spatial or geographic data. 
+                            GIS applications are tools that allow users to create 
+                            interactive queries (user-created searches), analyze spatial information, 
+                            edit data in maps, and present the results of all these operations.</p>
+                    </div>
+                    <div class="list-group-item py-3" id="IntroGIS">
+                        <h2 class="h2">Introduction to GIS</h2>
+                        <!-- accordion -->
+                        <div class="accordion" id="IntroConcepts">
+                            <div class="accordion-item" id="GeoData">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#introOne" aria-expanded="true" aria-controls="introOne">
+                                        Geospatial Data
+                                    </button>
+                                </h2>
+                                <div id="introOne" class="accordion-collapse collapse show" data-bs-parent="#IntroConcepts">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Geometric feature: Points, lines, polygons, surface & elevation</li>
+                                            <li>Data types - Nominal, ratio, ordinal, scalar</li>
+                                            <li>Data format types - Raster vs Vector</li>
+                                            <li>Features of maps - Type, scale, projection, coordinate systems</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                            <div id="introTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>Remote sensing theories</strong>
-                                    <ul>
-                                        <li>The definition of resolutions. EMR (wavelength/frequency)</li>
-                                    </ul>   
+                            </div>    
+                            <div class="accordion-item" id="RemoteSensing">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#introTwo" aria-expanded="true" aria-controls="introTwo">
+                                        Remote sensing theories
+                                    </button>
+                                </h2>
+                                <div id="introTwo" class="accordion-collapse collapse show" data-bs-parent="#IntroConcepts">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>The definition of resolutions. EMR (wavelength/frequency)</li>
+                                        </ul>   
+                                    </div>
                                 </div>
-                            </div>
-                            <div id="introThree" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>Analyzing maps</strong>
-                                    <ul>
-                                        <li>Navigate symbology, measurement and categorization of space</li>
-                                        <li>Pattern on maps</li>
-                                        <li>Calculate patterns and connections on maps</li>
-                                        <li>Map summaries, interpretations, and appropriate decisions made</li>
-                                    </ul>
+                            </div>    
+                            <div class="accordion-item" id="AnalyzingMaps">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#introThree" aria-expanded="true" aria-controls="introThree">
+                                        Analyzing maps
+                                    </button>
+                                </h2>
+                                <div id="introThree" class="accordion-collapse collapse show" data-bs-parent="#IntroConcepts">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Navigate symbology, measurement and categorization of space</li>
+                                            <li>Pattern on maps</li>
+                                            <li>Calculate patterns and connections on maps</li>
+                                            <li>Map summaries, interpretations, and appropriate decisions made</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                            <div id="introFour" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>Geomatics applications</strong>
+                            </div>    
+                            <div class="accordion-item" id="Geomatics">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#introFour" aria-expanded="true" aria-controls="introFour">
+                                        Geomatics applications
+                                    </button>
+                                </h2>
+                                <div id="introFour" class="accordion-collapse collapse show" data-bs-parent="#IntroConcepts">
+                                    <div class="accordion-body">
+                                    </div>
                                 </div>
-                            </div>
-                            <div id="introFive" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>Raster & Vector GIS data models</strong>
-                                    <ul>
-                                        <li>Explain advantage and limitations on Raster & Vector</li>
-                                        <li>Explore appropriate, simple/complex forms in Raster & Vector</li>
-                                        <li>Develop map layers/surfaces on Raster/Vector models</li>
-                                    </ul>
+                            </div>    
+                            <div class="accordion-item" id="RasterVector">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#introFive" aria-expanded="true" aria-controls="introFive">
+                                        Raster & Vector GIS data models
+                                    </button>
+                                </h2>
+                                <div id="introFive" class="accordion-collapse collapse show" data-bs-parent="#IntroConcepts">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Explain advantage and limitations on Raster & Vector</li>
+                                            <li>Explore appropriate, simple/complex forms in Raster & Vector</li>
+                                            <li>Develop map layers/surfaces on Raster/Vector models</li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                            <div id="introSix" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>Popular topics of Geospatial & Geomatics</strong>  
+                            </div>    
+                            <div class="accordion-item" id="Popular">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#introSix" aria-expanded="true" aria-controls="introSix">
+                                        Popular topics of Geospatial & Geomatics
+                                    </button>
+                                </h2>
+                                <div id="introSix" class="accordion-collapse collapse show" data-bs-parent="#IntroConcepts">
+                                    <div class="accordion-body"> 
+                                    </div>
                                 </div>
-                            </div>
-                            <div id="introSix" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <strong>Handling multiple maps</strong>
-                                    <ul>
-                                        <li>Merits of system models for GIS systems
-                                            <ul>
-                                                <li> Integrated, hybrid and object-oriented</li>
-                                            </ul>
-                                        </li>
-                                        <li>Compare features using logical overlays</li>
-                                        <li>Contrast cons and pros of different types of overlays
-                                            <ul>
-                                                <li>Intersections, symmetrical differences</li>
-                                                <li>Real-world applications</li>
-                                            </ul>
-                                        </li>
-                                    </ul>
+                            </div>    
+                            <div class="accordion-item" id="MultipleMaps">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#introSeven" aria-expanded="true" aria-controls="introSeven">
+                                        Handling multiple maps
+                                    </button>
+                                </h2>
+                                <div id="introSeven" class="accordion-collapse collapse show" data-bs-parent="#IntroConcepts">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Merits of system models for GIS systems
+                                                <ul>
+                                                    <li> Integrated, hybrid and object-oriented</li>
+                                                </ul>
+                                            </li>
+                                            <li>Compare features using logical overlays</li>
+                                            <li>Contrast cons and pros of different types of overlays
+                                                <ul>
+                                                    <li>Intersections, symmetrical differences</li>
+                                                    <li>Real-world applications</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>    
+                            </div>    
+                        </div>
                     </div>
                 </div>
             </div>
