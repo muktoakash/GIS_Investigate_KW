@@ -86,26 +86,42 @@
                                             <li>Geometric feature: Points, lines, polygons, surface & elevation
                                                 <dl class="row">
                                                     <dt class="col-sm-3">Points</dt>
-                                                    <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
-                                                  
-                                                    <dt class="col-sm-3">Term</dt>
                                                     <dd class="col-sm-9">
-                                                      <p>Definition for the term.</p>
-                                                      <p>And some more placeholder definition text.</p>
+                                                        <p>
+                                                            A point is composed of one coordinate pair representing a specific location in a coordinate system. 
+                                                            Points are the most basic geometric primitives having no length or area.
+                                                        </p>
                                                     </dd>
                                                   
-                                                    <dt class="col-sm-3">Another term</dt>
-                                                    <dd class="col-sm-9">This definition is short, so no extra paragraphs or anything.</dd>
-                                                  
-                                                    <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
-                                                    <dd class="col-sm-9">This can be useful when space is tight. Adds an ellipsis at the end.</dd>
-                                                  
-                                                    <dt class="col-sm-3">Nesting</dt>
+                                                    <dt class="col-sm-3">Polyline</dt>
                                                     <dd class="col-sm-9">
-                                                      <dl class="row">
-                                                        <dt class="col-sm-4">Nested definition list</dt>
-                                                        <dd class="col-sm-8">I heard you like definition lists. Let me put a definition list inside your definition list.</dd>
-                                                      </dl>
+                                                      <p>
+                                                        A polyline is composed of a sequence of two or more coordinate pairs called vertices. A vertex is defined by coordinate pairs, just like a point, but what differentiates a vertex from a point is its explicitly defined relationship with neighboring vertices. A vertex is connected to at least one other vertex.
+                                                    </p>
+                                                      <p>
+                                                        Roads and rivers are commonly stored as polylines in a GIS.
+                                                    </p>
+                                                    </dd>
+                                                  
+                                                    <dt class="col-sm-3">Polygon</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p>
+                                                            A polygon is composed of three or more line segments whose starting and ending coordinate pairs are the same. Sometimes  the words lattice or area used in lieu of ‘polygon’. Polygons represent both length (i.e. the perimeter of the area) and area. They also embody the idea of an inside and an outside; in fact, the area that a polygon encloses is explicitly defined in a GIS environment. If it isn’t, then the shape is a polyline feature. Think of three connected lines defining a triangle: they can represent three connected road segments (thus polyline features), or they can represent the grassy strip enclosed by the connected roads (in which case an ‘inside’ is implied thus defining a polygon).
+                                                        </p>
+                                                    </dd>
+                                                  
+                                                    <dt class="col-sm-3 text-truncate">Elevation</dt>
+                                                    <dd class="col-sm-9"> 
+                                                        <p>
+                                                            <em>(from <a href="https://support.esri.com/en-us/gis-dictionary">GIS Dictionary</a>)</em> The vertical distance of a point or object above or below a reference surface or datum (generally mean sea level). Elevation generally refers to the vertical height of land.
+                                                        </p>
+                                                    </dd>
+                                                  
+                                                    <dt class="col-sm-3">Surface</dt>
+                                                    <dd class="col-sm-9">
+                                                      <p>
+                                                        <em>(from <a href="https://support.esri.com/en-us/gis-dictionary">GIS Dictionary</a>)</em>  A representation of a geographic feature that stores a single z-value for any given x,y location.
+                                                      </p>
                                                     </dd>
                                                   </dl>
                                             </li>
