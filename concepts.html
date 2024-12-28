@@ -83,7 +83,7 @@
                                 <div id="introOne" class="accordion-collapse collapse show" data-bs-parent="#IntroConcepts">
                                     <div class="accordion-body">
                                         <ul>
-                                            <li> <mark>Geometric feature: Points, lines, polygons, surface & elevation</mark>
+                                            <li> <mark id="vector">Geometric feature: Points, lines, polygons, surface & elevation</mark>
                                                 <dl class="row">
                                                     <dt class="col-sm-3">Points</dt>
                                                     <dd class="col-sm-9">
@@ -165,7 +165,25 @@
                                             </li>
                                             <li>
                                                 <mark>Data format types - Raster vs Vector</mark>
-
+                                                <dl class="row">
+                                                    <dt class="col-sm-3">Vector</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            Vector features can be decomposed into three different geometric primitives: <a href="#vector">points, polylines and polygons</a>.
+                                                        </p>
+                                                    </dd>
+                                                  
+                                                    <dt class="col-sm-3">Raster</dt>
+                                                    <dd class="col-sm-9">
+                                                      <p>
+                                                        A raster data model uses an array of cells, or pixels, to represent real-world objects. Raster datasets are commonly used for representing and managing imagery, surface temperatures, digital elevation models, and numerous other entities.</p>
+                                                      <p>
+                                                        Implicit in a raster data model is a value associated with each cell or pixel. This is in contrast to a vector model that may or may not have a value associated with the geometric primitive.
+                                                      </p>
+                                                      <p>
+                                                        Also note that a raster data structure is square or rectangular. So, if the features in a raster do not cover the full square or rectangular extent, their pixel values will be set to no data values (e.g. NULL or NoData).
+                                                      </p>
+                                                    </dd>
                                             </li>
                                             <li>
                                                 <mark>Features of maps - Type, scale, projection, coordinate systems</mark>
