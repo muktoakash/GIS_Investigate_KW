@@ -242,7 +242,6 @@
                                                             The ratio of distance on the map to that in the real world. So a large scale map implies a relatively large ratio and thus a small extent.
                                                         </p>
                                                     </dd>
-                                                  
                                                     <dt class="col-sm-3">Coordinates</dt>
                                                     <dd class="col-sm-9">
                                                       <p>
@@ -255,6 +254,89 @@
                                                       </p>
                                                     </dd>
                                                 </dl>
+                                            </li>
+                                            <li>
+                                                <mark>Map Projections</mark>
+                                                <p>
+                                                    <em>(from <a href="https://support.esri.com/en-us/gis-dictionary">GIS Dictionary</a>)</em> A geometric transformation of the earth's spherical or ellipsoidal surface onto a flat map surface—also known as a developable surface. A projection generally requires a systematic mathematical transformation of the earth's graticule of lines of longitude and latitude onto a plane. Every map projection distorts distance, area, shape, direction, or some combination thereof.
+                                                </p>
+                                                <dt class="col-sm-3">Planar</dt>
+                                                <dd class="col-sm-12">
+                                                    <p> 
+                                                        A planar projection (aka Azimuthal projection) maps the earth surface features to a flat surface that touches the earth’s surface at a point (tangent case), or along a line of tangency (a secant case).
+                                                    </p>
+                                                </dd>
+                                                <dt class="col-sm-3">Conical Projection</dt>
+                                                <dd class="col-sm-12">
+                                                    <p> 
+                                                        A conical map projection maps the earth surface onto a map rolled into a cone. Like the cylindrical projection, the cone can touch the surface of the earth along a single line of tangency (a tangent case), or along two lines of tangency (a secant case).
+                                                    </p>
+                                                    <p>
+                                                        Distortion is minimized along the tangent or secant lines and increases as the distance from these lines increases. When distance or area measurements are needed for the contiguous 48 states, use one of the conical projections such as Equidistant Conic (distance preserving) or Albers Equal Area Conic (area preserving).
+                                                    </p>
+                                                </dd>
+                                                <dt class="col-sm-3">Cylindrical Projection</dt>
+                                                <dd class="col-sm-12">
+                                                    <p> 
+                                                        A cylindrical map projection maps the earth surface onto a map rolled into a cylinder (which can then be flattened into a plane). The cylinder can touch the surface of the earth along a single line of tangency (a tangent case), or along two lines of tangency (a secant case).
+                                                    </p>
+                                                    <p>
+                                                        The cylinder can be tangent to the equator or it can be oblique. A special case is the Transverse aspect which is tangent to lines of longitude. This is a popular projection used in defining the Universal Transverse Mercator (UTM) and State Plane coordinate systems. 
+                                                    </p>
+                                                </dd>
+                                                <dl class="row">
+                                                    <dt class="col-sm-3">Albers equal-area conic projection</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            <em>(from <a href="https://support.esri.com/en-us/gis-dictionary">GIS Dictionary</a>)</em> A conformal, conic map projection designed to preserve the relative sizes of areas on a map. The Albers equal-area conic projection is particularly useful when mapping regions with significant variations in latitude, such as countries or continents, as it minimizes area distortion within the selected region. Devised in 1805 by German cartographer Heinrich C. Albers, it is also known as the Albers equal-area projection.
+                                                        </p>
+                                                    </dd>
+                                                    <dt class="col-sm-3">Orthographic projection</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            <em>(from <a href="https://support.esri.com/en-us/gis-dictionary">GIS Dictionary</a>)</em> A planar projection based on a light source at an infinite distance from the generating globe so that all rays are parallel; how the earth would appear if viewed from a distant planet.
+                                                        </p>
+                                                    </dd>
+                                                    <dt class="col-sm-3">Robinson projection</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            <em>(from <a href="https://support.esri.com/en-us/gis-dictionary">GIS Dictionary</a>)</em> A pseudo-cylindrical map projection that is neither equal area nor conformal. Named for U.S. geographer and cartographer, Arthur H. Robinson (1915 – 2004).
+                                                        </p>
+                                                    </dd>
+                                                    <dt class="col-sm-3">Sinusoidal projection</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            <em>(from <a href="https://support.esri.com/en-us/gis-dictionary">GIS Dictionary</a>)</em> An equal-area pseudo-cylindrical projection, equidistant in the east–west direction and in the north–south direction along the central meridian, but only in these directions; developed by French hydrographer Jean Cossin in 1570. Sometimes called the Sanson-Flamsteed projection, the projection is also attributed to seventeenth century French cartographer Nicolas Sanson and British astronomer John Flamsteed, who used the sinusoidal projection for global atlases and star maps, respectively.
+                                                        </p>
+                                                    </dd>
+                                                    <dt class="col-sm-3">Stereographic projection</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            <em>(from <a href="https://support.esri.com/en-us/gis-dictionary">GIS Dictionary</a>)</em> A planar conformal projection based on a light source on the surface of the generating globe opposite the point of tangency.  A secant planar projection that views the earth from a point on the globe opposite the center of the projection.
+                                                        </p>
+                                                    </dd>
+                                                    <dt class="col-sm-3">Transverse Mercator projection</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            <em>(from <a href="https://support.esri.com/en-us/gis-dictionary">GIS Dictionary</a>)</em> A conformal cylindrical projection—invented by Swiss polymath Johann Heinrich Lambert in 1772—that rotates the Mercator projection 90 degrees so that the line of tangency is a pair of meridians.
+                                                        </p>
+                                                        <p> 
+                                                            The UTM PCS covers the entire globe and is a popular coordinate system in the US. It’s important to note that the UTM PCS is broken down into zones and therefore limits its extent to these zones that are 6° wide. For example, the State of Maine (USA) uses the UTM coordinate system (Zone 19 North) for most of its statewide GIS maps. Most USGS quad maps are also presented in a UTM coordinate system. Popular datums tied to the UTM coordinate system in the US include NAD27 and NAD83. There is also a WGS84 based UTM coordinate system.
+                                                        </p>
+                                                    </dd>
+                                                    <dt class="col-sm-3"> Lambert conformal conic projection</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            <em>(from <a href="https://support.esri.com/en-us/gis-dictionary">GIS Dictionary</a>)</em> A secant-case normal-aspect conic projection with its two standard parallels placed to minimize the map's overall scale distortion. Invented by Swiss polymath Johann Heinrich Lambert in 1772.
+                                                        </p>
+                                                    </dd>
+                                                </dl>
+                                            </li>
+                                            <li>
+                                                <mark>Transformations</mark>
+                                                <p>
+                                                    A geographic coordinate system is a reference system for identifying locations on the curved surface of the earth. Locations on the earth’s surface are measured in angular units from the center of the earth relative to two planes: the plane defined by the equator and the plane defined by the prime meridian (which crosses Greenwich England). A location is therefore defined by two values: a latitudinal value and a longitudinal value.
+                                                </p>
                                             </li>
                                         </ul>
                                     </div>
