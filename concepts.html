@@ -406,8 +406,143 @@
                                 </h2>
                                 <div id="introTwo" class="accordion-collapse collapse show" data-bs-parent="#IntroConcepts">
                                     <div class="accordion-body">
+                                        <p>
+                                            (from <a href="https://pro.arcgis.com/en/pro-app/latest/help/main/welcome-to-the-arcgis-pro-app-help.htm">ArcGIS Pro</a>)</em> Remote sensing extracts meaningful information from imagery. It applies image processing techniques to identify and extract various types of information about features of interest, such as vegetation type and health, type of urban development, and identifying and analyzing trends in detected objects and phenomena. Proximity and neighborhood analysis, seasonality, physical and cultural geography, vegetation growth phenomenology, climate, and other physical and environmental factors are considered when defining the type and timing of image acquisition.
+                                        </p>
+                                        <p>
+                                            (from <a href="https://pro.arcgis.com/en/pro-app/latest/help/main/welcome-to-the-arcgis-pro-app-help.htm">ArcGIS Pro</a>)</em> In image datasets, each pixel has a value. The pixel values represent the phenomenon portrayed by the raster dataset, such as a spectral value, category, magnitude, or height. The category can be a land-use class such as grassland, forest, or road. Spectral values are used in satellite and aerial imagery to represent light reflectance and color. A magnitude may represent gravity, noise pollution, or percent of rainfall. Height (distance) can represent surface elevation above mean sea level, which can be used to derive slope, aspect, and watershed properties.
+                                        </p>
+                                        <p>
+                                            (from <a href="https://pro.arcgis.com/en/pro-app/latest/help/main/welcome-to-the-arcgis-pro-app-help.htm">ArcGIS Pro</a>)</em> Remote sensing imagery is collected by a satellite, an aircraft, or a drone platform. All remote-sensing imagery is not the same, and it is generally collected to meet project requirements. The nature of the information contained in imagery depends primarily on three types of resolution: spatial, spectral, and temporal, which all affect the minimum mapping unit of a project.
+                                        </p>
                                         <ul>
-                                            <li>The definition of resolutions. EMR (wavelength/frequency)</li>
+                                            <li>
+                                                <mark>The definition of resolutions. EMR (wavelength/frequency)</mark>
+                                                <dl class="row">
+                                                    <dt class="col-sm-3">Resolution</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            (from <a href="https://support.esri.com/en-us/gis-dictionary">GIS Dictionary</a>)</em> The detail with which a map depicts the location and shape of geographic features. The larger the map scale, the higher the possible resolution. As scale decreases, resolution diminishes and feature boundaries must be smoothed, simplified, or not shown at all; for example, small areas may have to be represented as points.
+                                                        </p>
+                                                    </dd>
+                                                    <dt class="col-sm-3">Spatial resolution</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            (from <a href="https://pro.arcgis.com/en/pro-app/latest/help/main/welcome-to-the-arcgis-pro-app-help.htm">ArcGIS Pro</a>)</em> Spatial resolution refers to the size of the pixels (picture elements) on the ground comprising the image, and is often referred to as ground sample distance (GSD). This is a function of both the sensor capability and the flying height of the sensor. GSD determines the level of spatial detail and types of features visible in the image. Generally, the smaller the pixel size, the greater the detail contained in the image.
+                                                        </p>
+                                                    </dd>
+                                                    <dt class="col-sm-3">Spatial resolution</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            (from <a href="https://pro.arcgis.com/en/pro-app/latest/help/main/welcome-to-the-arcgis-pro-app-help.htm">ArcGIS Pro</a>)</em> Spectral resolution is determined by the sensor and measures portions of the electromagnetic spectrum. The spectral characteristics of a sensor are composed of the number of imaging bands, wavelengths of the bands, spectral width of the bands, and the signal-to-noise ratio. Spectral resolution refers to the ability of the sensor to measure the spectral signature of a feature. These characteristics determine the type of features and phenomena that can be detected and mapped.
+                                                        </p>
+                                                    </dd>
+                                                    <dt class="col-sm-3">Temporal resolution</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            (from <a href="https://pro.arcgis.com/en/pro-app/latest/help/main/welcome-to-the-arcgis-pro-app-help.htm">ArcGIS Pro</a>)</em> Temporal resolution refers to the frequency of coverage of a geographic location, usually by a class of satellite sensor platforms. It is determined by number of satellite overpasses, orbital mechanics, and the agility of the sensor platform. For satellites that point vertically down at the earth, such as the Landsat series, temporal resolution is 16 days to cover the same geographic location.
+                                                        </p>
+                                                    </dd>
+                                                    </dd>
+                                                    <dt class="col-sm-3">Radiometric resolution</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            (from <a href="https://support.esri.com/en-us/gis-dictionary">GIS Dictionary</a>)</em> The sensitivity of a sensor to small fluctuations in the amount of energy in the electromagnetic spectrum. There are three aspects to this characteristic:
+                                                            <ol>
+                                                                <li>The sensor's bandwidth sensitivity (full width at half maximum, or FWHM) determines the range of wavelengths in the specific image band of the electromagnetic spectrum that the sensor can detect.</li>
+                                                                <li>Typically, sensors have 8-, 11-, 12-, 14-, or 16-bit depth per band. The higher the bit depth, the higher the sensor's potential radiometric resolution. </li>
+                                                                <li>The sensor's signal-to-noise ratio (S/N) describes the amount of signal resolution information within the band. For example, two sensors can each return an image containing 8 bits of information (256 possible grey levels), but one may have 60 S/N and the other 120 S/N, or double the amount of signal resolution information.</li>
+                                                            </ol> 
+                                                        </p>
+                                                    </dd>
+                                                    <dt class="col-sm-3">Electromagnetic radiation (EMR)</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            (from <a href="https://support.esri.com/en-us/gis-dictionary">GIS Dictionary</a>)</em>  Energy that moves through space at the speed of light as different wavelengths of time-varying electric and magnetic fields. Types of electromagnetic radiation include gamma, X, ultraviolet, visible, infrared, microwave, and radio.
+                                                            <ol>
+                                                                <li>Visible light (380 &mdash; 780nm), NearIR ( &gt; 780nm)</li>
+                                                                <li>MidIR or SWIR (1900 &mdash; 2500nm), Thermal (8 &mdash; 15 um) </li>
+                                                            </ol> 
+                                                        </p>
+                                                    </dd>
+                                                    <dt class="col-sm-3">Radar frequency</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            (from <a href="https://support.esri.com/en-us/gis-dictionary">GIS Dictionary</a>)</em>  An active sensor system that detects surface features on the earth by bouncing polarized radio waves off them and measuring the energy, including distance, direction, and polarization, that is reflected back.
+                                                            <ul>
+                                                                <li>C-band (4 to 8 GHz), X-band (8 to 12 GHz)</li>
+                                                                <li class="mt-2">
+                                                                    <table class="table table-bordered table-condensed">
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <td></td>
+                                                                                <th scope="col" class="col-md-3"> RADARSAT-1 </th>
+                                                                                <th scope="col" class="col-md-3"> RADARSAT-2 </th>
+                                                                                <th scope="col" class="col-md-3"> RADARSAT Constellation </th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <th scope="row" class="text-left">Active antenna</th>
+                                                                                <td>C-Band </td>
+                                                                                <td> C-Band </td>
+                                                                                <td> C-Band </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th scope="row" class="text-left">Centre frequency</th>
+                                                                                <td>5.3 <abbr title="Gigahertz">GHz</abbr></td>
+                                                                                <td>5.405 <abbr title="Gigahertz">GHz</abbr></td>
+                                                                                <td>5.405 <abbr title="Gigahertz">GHz</abbr></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th scope="row" class="text-left">Bandwidth</th>
+                                                                                <td>30 <abbr title="Megahertz">MHz</abbr></td>
+                                                                                <td>100 <abbr title="Megahertz">MHz</abbr></td>
+                                                                                <td>100 <abbr title="Megahertz">MHz</abbr></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th scope="row" class="text-left">Polarization</th>
+                                                                                <td><abbr title="horizontal transmit and horizontal receive">HH</abbr></td>
+                                                                                <td><abbr title="horizontal transmit and horizontal receive">HH</abbr>, <abbr title="vertical transmit and vertical receive">VV</abbr>, <abbr title="horizontal transmit and vertical receive">HV</abbr>, <abbr title="vertical transmit and horizontal receive">VH</abbr></td>
+                                                                                <td><abbr title="horizontal transmit and horizontal receive">HH</abbr>, <abbr title="vertical transmit and vertical receive">VV</abbr>, <abbr title="horizontal transmit and vertical receive">HV</abbr>, <abbr title="vertical transmit and horizontal receive">VH</abbr>, Compact Polarimetry</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th scope="row" class="text-left">Polarization isolation</th>
+                                                                                <td>&gt; 20 <abbr title="Decibel">dB</abbr></td>
+                                                                                <td>&gt; 25 <abbr title="Decibel">dB</abbr></td>
+                                                                                <td>&gt; 30 <abbr title="Decibel">dB</abbr></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th scope="row" class="text-left">Aperture length</th>
+                                                                                <td>15&nbsp;<abbr title="Metres">m</abbr></td>
+                                                                                <td> 15&nbsp;<abbr title="Metres">m</abbr></td>
+                                                                                <td>6.75&nbsp;<abbr title="Metres">m</abbr></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th scope="row" class="text-left">Aperture width</th>
+                                                                                <td>1.5&nbsp;<abbr title="Metres">m</abbr></td>
+                                                                                <td> 1.37&nbsp;<abbr title="Metres">m</abbr></td>
+                                                                                <td>1.38&nbsp;<abbr title="Metres">m</abbr></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th scope="row" class="text-left">Mass</th>
+                                                                                <td>679 <abbr title="Kilograms">kg</abbr></td>
+                                                                                <td> 750 <abbr title="Kilograms">kg</abbr></td>
+                                                                                <td>400 <abbr title="Kilograms">kg</abbr> approximate</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <th scope="row" class="text-left">Deployment mechanism</th>
+                                                                                <td>Extendable support structure (<abbr>ESS</abbr>)</td>
+                                                                                <td><abbr title="Extendable support structure">ESS</abbr></td>
+                                                                                <td>Simple strut deployment with a kinematically decoupled internal support structure</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </li>
+                                                            </ul> 
+                                                        </p>
+                                                    </dd>
+                                            </li>
                                         </ul>   
                                     </div>
                                 </div>
