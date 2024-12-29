@@ -162,6 +162,7 @@
                                                             A field view of the world treats entities as a scalar field.  It is measurable at every location within the study region. Two popular examples of a scalar field are surface elevation and surface temperature. Each represents a property that can be measured at any location.
                                                         </p>
                                                     </dd>
+                                                </dl>
                                             </li>
                                             <li>
                                                 <mark>Data format types - Raster vs Vector</mark>
@@ -184,9 +185,76 @@
                                                         Also note that a raster data structure is square or rectangular. So, if the features in a raster do not cover the full square or rectangular extent, their pixel values will be set to no data values (e.g. NULL or NoData).
                                                       </p>
                                                     </dd>
+                                                </dl>
                                             </li>
                                             <li>
                                                 <mark>Features of maps - Type, scale, projection, coordinate systems</mark>
+                                                
+                                                    <p> A map can be composed of many different map elements. They may include: Main map body, legend, title, scale indicator, orientation indicator, inset map and source and ancillary information.</p>
+
+                                                    <p>Not all elements need to be present in a map. In fact, in some cases they may not be appropriate at all. A scale bar, for instance, may not be appropriate if the coordinate system used does not preserve distance across the map’s extent.</p>
+
+                                                    <p>Knowing why and for whom a map is being made will dictate its layout. If it’s to be included in a paper as a figure, then parsimony should be the guiding principle. If it’s intended to be a standalone map, then additional map elements may be required.
+                                                    </p>
+
+                                                    <p>Knowing the intended audience should also dictate what you will convey and how. If it’s a general audience with little technical expertise then a simpler presentation may be in order. If the audience is well versed in the topic, then the map may be more complex.</p>
+                                                
+                                                <dl class="row">
+                                                    <dt class="col-sm-3">Map</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            <em>(from <a href="https://support.esri.com/en-us/gis-dictionary">GIS Dictionary</a>)</em> A document used to display and work with geographic data. A map contains one or more layers and various supporting map elements, such as a scale bar.
+                                                        </p>
+                                                    </dd>
+                                                    <dt class="col-sm-3">Map Element</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            <em>(from <a href="https://support.esri.com/en-us/gis-dictionary">GIS Dictionary</a>)</em> In digital cartography, a distinctly identifiable graphic or object in the map or page layout. For example, a map element can be a title, scale bar, legend, or other map-surround element. The map area itself can be considered a map element; or an object within the map can be referred to as a map element, such as a roads layer or a school symbol.
+                                                        </p>
+                                                    </dd>
+                                                    <dt class="col-sm-3">Neatline</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            <em>(from <a href="https://support.esri.com/en-us/gis-dictionary">GIS Dictionary</a>)</em> The border delineating and defining the extent of geographic data on a map. It demarcates map units so that, depending on the map projection, the neatline does not always have 90-degree corners. In a properly made map, it is the most accurate element of the data; other map features may be moved slightly or exaggerated for generalization or readability, but the neatline is never adjusted.
+                                                        </p>
+                                                    </dd>
+                                                    <dt class="col-sm-3">Grid</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            <em>(from <a href="https://support.esri.com/en-us/gis-dictionary">GIS Dictionary</a>)</em> TIn cartography, any network of parallel and perpendicular lines superimposed on a map and used for reference. These grids are usually referred to by the map projection or coordinate system they represent, such as universal transverse Mercator grid.
+                                                        </p>
+                                                    </dd>
+                                                    <dt class="col-sm-3">Layout</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            <em>(from <a href="https://support.esri.com/en-us/gis-dictionary">GIS Dictionary</a>)</em> The arrangement of elements on a map, possibly including a title, legend, north arrow, scale bar, and geographic data.
+                                                        </p>
+                                                    </dd>
+                                                    <dt class="col-sm-3">Legend</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            <em>(from <a href="https://support.esri.com/en-us/gis-dictionary">GIS Dictionary</a>)</em> A description of what each symbol, or graphic, on a map represents. A legend is sometimes called a key.
+                                                        </p>
+                                                    </dd>
+                                                    <dt class="col-sm-3">Scale</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            The ratio of distance on the map to that in the real world. So a large scale map implies a relatively large ratio and thus a small extent.
+                                                        </p>
+                                                    </dd>
+                                                  
+                                                    <dt class="col-sm-3">Coordinates</dt>
+                                                    <dd class="col-sm-9">
+                                                      <p>
+                                                        A set of values represented by the letters x, y, and optionally z (elevation, density, or quantity) or m (measure), that define an object's position within a coordinate system.</p>
+                                                      <p>
+                                                        A geographic coordinate system is a reference system for identifying locations on the curved surface of the earth.
+                                                      </p>
+                                                      <p>
+                                                        A projected coordinate system (PCS) is a reference system for identifying locations and measuring features on a flat (map) surface. It consists of lines that intersect at right angles, forming a grid. Projected coordinate systems (which are based on Cartesian coordinates) have an origin, an x axis, a y axis, and a linear unit of measure. Going from a GCS to a PCS requires mathematical transformations.
+                                                      </p>
+                                                    </dd>
+                                                </dl>
                                             </li>
                                         </ul>
                                     </div>
