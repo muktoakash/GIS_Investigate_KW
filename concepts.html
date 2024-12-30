@@ -556,7 +556,55 @@
                                 <div id="introThree" class="accordion-collapse collapse show" data-bs-parent="#IntroConcepts">
                                     <div class="accordion-body">
                                         <ul>
-                                            <li><mark>Navigate symbology, measurement and categorization of space</mark></li>
+                                            <li><mark>Navigate symbology, measurement and categorization of space</mark>
+                                                <dt class="col-sm-3">Symbology</dt>
+                                                <dd class="col-sm-12">
+                                                    <p> 
+                                                        Graphical indicators to represent a geographic feature or attributes. <em>(from <a href="https://docs.qgis.org/3.34/en/docs/training_manual">QGIS Documentation</a>)</em> The symbology of a layer is its visual appearance on the map.
+                                                    </p>
+                                                </dd>
+                                                <div class="row">
+                                                    <dt class="col-sm-3">Single symbol</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            (from <a href="https://pro.arcgis.com/en/pro-app/latest/help/main/welcome-to-the-arcgis-pro-app-help.htm">ArcGIS Pro</a>)</em> Single symbol symbology applies the same symbol to all features in a layer. This symbology is used for drawing a layer with only one category, such as county boundaries.
+                                                        </p>
+                                                    </dd>
+                                                    <dt class="col-sm-3">Unique values</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            (from <a href="https://pro.arcgis.com/en/pro-app/latest/help/main/welcome-to-the-arcgis-pro-app-help.htm">ArcGIS Pro</a>)</em> Unique values symbology symbolizes feature layers into qualitative categories. Examples include habitat types, planning zones, voting preferences, and soil classifications.
+                                                        </p>
+                                                    </dd>
+                                                    <dt class="col-sm-3">Graduated colors</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            (from <a href="https://pro.arcgis.com/en/pro-app/latest/help/main/welcome-to-the-arcgis-pro-app-help.htm">ArcGIS Pro</a>)</em> Graduated color symbology is used to show a quantitative difference between mapped features by varying the color of symbols. Graduated color symbology can be based on an attribute field in the dataset. Data is classified into ranges that are each assigned a different color from a color scheme to represent the range.  The size of the symbols stays the same. Maps that vary in color this way are usually called choropleth maps.
+                                                        </p>
+                                                        <p>
+                                                            A range of seven colors is the approximate upper limit of colors that can be clearly distinguished on a map. Avoid using too many classes.
+                                                        </p>
+                                                    </dd>
+                                                    <dt class="col-sm-3">Graduated symbols</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            (from <a href="https://pro.arcgis.com/en/pro-app/latest/help/main/welcome-to-the-arcgis-pro-app-help.htm">ArcGIS Pro</a>)</em> Graduated symbols are used to show a quantitative difference between mapped features by varying the size of symbols. Data is classified into ranges that are each then assigned a symbol size to represent the range. The color of the symbols stays the same.
+                                                        </p>
+                                                        <p>
+                                                            Symbol size is an effective way to represent differences in magnitude of a phenomenon, because larger symbols are naturally associated with a greater amount of something.
+                                                        </p>
+                                                    </dd>
+                                                    <dt class="col-sm-3">Proportional symbols</dt>
+                                                    <dd class="col-sm-9">
+                                                        <p> 
+                                                            (from <a href="https://pro.arcgis.com/en/pro-app/latest/help/main/welcome-to-the-arcgis-pro-app-help.htm">ArcGIS Pro</a>)</em> Proportional symbology is used to show relative differences in quantities among features. Proportional symbology is similar to graduated symbols symbology in that both methods draw symbols that are sized relative to the magnitude of a feature attribute. But where graduated symbols distribute features into distinct classes, proportional symbols represent quantitative values as a series of unclassed symbols, sized according to each specific value.
+                                                        </p>
+                                                        <p>
+                                                            Proportional symbols can be applied with either relative or actual sizing. If symbolizing counts or other values without a unit, use relative sizing. If symbolizing measurable values with a unit, use actual sizing.
+                                                        </p>
+                                                    </dd>
+                                                </div>
+                                            </li>
                                             <li><mark>Pattern on maps</mark></li>
                                             <li><mark>Calculate patterns and connections on maps</mark></li>
                                             <li><mark>Map summaries, interpretations, and appropriate decisions made</mark></li>
