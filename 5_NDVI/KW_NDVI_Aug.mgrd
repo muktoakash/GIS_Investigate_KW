@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <DATABASE></DATABASE>
+  <SOURCE></SOURCE>
+  <HISTORY saga-version="9.5.1">
+    <TOOL library="shapes_grid" id="7" name="Clip Grid with Polygon">
+      <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid System">
+        <CELLSIZE>30</CELLSIZE>
+        <XMIN>456300</XMIN>
+        <YMIN>4663500</YMIN>
+        <XMAX>688200</XMAX>
+        <YMAX>4899000</YMAX>
+      </OPTION>
+      <OPTION type="choice" id="EXTENT" name="Target Extent" index="1">polygons</OPTION>
+      <INPUT_LIST type="grid_list" id="INPUT" name="Input" system="PARAMETERS_GRID_SYSTEM">
+        <INPUT type="grid_list" id="INPUT" name="Input" system="PARAMETERS_GRID_SYSTEM">
+          <FILE>C:/Users/mukto/AppData/Local/Temp/processing_dqlhmD/4a3e9191e7a84c05a2a8be66c7a21e3d/NDVICalcAug.sgrd</FILE>
+        </INPUT>
+      </INPUT_LIST>
+      <INPUT type="shapes" id="POLYGONS" name="Polygons">
+        <FILE>C:/Users/mukto/AppData/Local/Temp/processing_dqlhmD/01676523757e47cb9b5f53b522c10c11/POLYGONS.shp</FILE>
+      </INPUT>
+      <OUTPUT type="grid_list" id="OUTPUT" name="Output">NDVICalcAug</OUTPUT>
+    </TOOL>
+  </HISTORY>
+  <FILE></FILE>
+  <DESCRIPTION></DESCRIPTION>
+  <PROJECTION>
+    <WKT1>PROJCS["WGS 84 / UTM zone 17N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-81],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32617"]]</WKT1>
+    <PROJ>+proj=utm +zone=17 +datum=WGS84 +units=m +no_defs +type=crs</PROJ>
+    <CODE authority="EPSG">32617</CODE>
+  </PROJECTION>
+</SAGA_METADATA>
