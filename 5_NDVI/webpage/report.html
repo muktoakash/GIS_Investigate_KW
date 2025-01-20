@@ -30,6 +30,7 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="../../1_Emergency_Services_by_Age/webpage/report.html">EMS in Kitchener</a></li>
                                 <li><a class="dropdown-item" href="../../3_Terrain_Map/webpage/report.html">Elevation of Kitchener</a></li>
+                                <li><a class="dropdown-item" href="../../5_NDVI/webpage/report.html">NDVI of Kitchener</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
                             </ul>
@@ -49,13 +50,22 @@
             <div class="row">
                 <div class="col-md-7">
                     <figure class="figure mt-5 pt-3">
-                        <img src="" alt="" class="img-fluid">
-                        <figcaption class="figure-caption"></figcaption>
+                        <img src="../NDVI_diff.png" alt="Difference of August and October NDVI" class="img-fluid">
+                        <figcaption class="figure-caption">Leaves dying in Fall 2024</figcaption>
                       </figure>
                 </div>
                 <div class="col-md-5">
                     <h1 class="mt-5">Vegetation mapping of Kitchener</h1>
-                    <p class="mt-4">This project ...
+                    <p class="mt-4">This project displays the Normalized Difference Vegetation index (NDVI) of the Region of Waterloo.
+                        The NDVI map was created using the raster calculator in QGIS.
+                        The NDVI image was then used to identify the change in vegetation health in the Fall of 2024.
+                    </p>
+                    <p>
+                        The image on the left shows the difference in NDVI between August and October. 
+                        The red areas show a decrease in vegetation health, while the green areas show
+                        an increase in vegetation health. The color gradient gives a sense of the mapping 
+                        of the change in vegetation health across the region. A <a href="../webmap/qgis2web_2025_01_19-18_43_16_413206/index.html">wepmap</a>
+                        of the NDVI map is also available.
                     </p>
                 </div>
             </div>
@@ -72,29 +82,54 @@
                 <div class="col">
                     <h2 class="h2">Geopspatial skills and tools used.</h2>
                     <p>
-                        The project used QGIS to process the data and create the NDVI map. The NDVI map was created using the raster calculator in QGIS. The NDVI map was then used to identify the vegetation cover in the city of Kitchener. 
+                        The project used QGIS to process the data and create the NDVI map. 
+                        Satellite images with the red and near-infrared bands were used to calculate the NDVI 
+                        using the raster calculator in QGIS. Indiviual NDVI images from August and October were 
+                        then used to note the difference in vegetation health, and to
+                        calculate the difference in NDVI between the two months.
+                    </p>
+                    <p>
+                        The image below displayes the individual NDVI maps of August and October.
                     </p>
                     <figure class="figure mt-5 pt-3">
-                        <img src="" alt="" class="img-fluid">
-                        <figcaption class="figure-caption"></figcaption>
+                        <img src="../NDVI_map.png" alt="" class="img-fluid">
+                        <figcaption class="figure-caption">Vegetation health in the Region of Waterloo</figcaption>
                       </figure>
                     
                     <h2 class="h2">Data used for the project and how they were transformed.</h2>
-                    <p> All data was obtained from ... 
+                    <p> All data was obtained from Landsat 8 satellite images. 
+                        The images were downloaded from the <a href="https://earthexplorer.usgs.gov/">USGS Earth Explorer website</a> . 
+                        The images were then processed in QGIS to create the NDVI maps.
                     </p>
 
                     <h2 class="h2">Analysis and results of the project.</h2>
                     <p>
-                        The NDVI map was used to identify the vegetation cover in the city of Kitchener. The map shows the areas with the highest vegetation cover in green and the areas with the lowest vegetation cover in red. The map can be used to identify areas that need more vegetation cover and areas that have sufficient vegetation cover.
+                        The NDVI map was used to identify the vegetation cover in the Region of Waterloo.
+                        The map can be used to identify areas where the vegetation is significantly affected by the impending Winter.
+                        While the map shows how the vegetation health has changed, it is important to recognize that this is based on
+                        data from a single year. In genral, the vegetation health of the region is expected to change with the seasons,
+                        however, the severity may depend on many factors such as temperature and humidity change, elevation of the region,
+                        the number of cloudy days in that Fall season, etc.
+                    </p>
+                    <p>
+                        Further analysis can be done to identify the factors that affect the vegetation health in the Region of Waterloo.
+                        The region of interest can be increased to include nearby localities, and the elevation profiles can be used to
+                        compare the vegetation health at different altitudes. The NDVI map can also be constructed across multiple years
+                        to identify the long-term changes in vegetation health and other factors that may affect Fall foliage.
                     </p>
                     <figure class="figure mt-5 pt-3">
-                        <img src="" alt="" class="img-fluid">
-                        <figcaption class="figure-caption"></figcaption>
+                        <img src="../True Colors.png" alt="True Colors of KW" class="img-fluid">
+                        <figcaption class="figure-caption">Region of Waterloo as seen from the satellite.</figcaption>
                       </figure>
 
                     <h2 class="h2">Challenges faced with the project.</h2>
                     <p> 
-                        The main challenge faced with the project was ... 
+                        The main challenge faced with the project was the limitation of the Landsat 8 satellite images.
+                        The specific requirements of a maximum of 10% cloud cover and the availability of the images for the specific region
+                        posed significant limitations on the data available for the project. 
+                        Moreover, there is no guarantee that similar images will be available for the same region in the subsequent years.
+                        Perhaps a better source for such images will be a geostationary satellite that can provide images of the same region
+                        across multiple years.
                     </p>
                 </div>
             </div>
